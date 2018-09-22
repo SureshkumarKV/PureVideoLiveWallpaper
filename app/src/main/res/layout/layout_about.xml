@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:id="@+id/id_about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textAppearance="@android:style/TextAppearance.Material.Menu"
+        android:autoLink="web"
+        android:layout_marginBottom="10dp"
+        android:textColorLink="@color/colorAccent"
+        android:text="Pure video live wallpaper is a lightweight live wallpaper that allows you to use videos as live home screen background. It is implemented using OpenGL, GLSL and Android MediaPlayer APIs."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textAppearance="@android:style/TextAppearance.Material.Menu"
+        android:autoLink="web"
+        android:textColorLink="@color/colorAccent"
+        android:text="It is open source too. You can get the latest code from GitHub at: http://github.com/SureshkumarKV/PureVideoLiveWallpaper. It uses a couple of other open source libraries, which could be found under my github projects list."/>
+
+</LinearLayout>

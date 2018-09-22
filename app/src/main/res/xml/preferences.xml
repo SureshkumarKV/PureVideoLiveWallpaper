@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Settings">
+        <in.sureshkumarkv.preferencelib.SliderPreference
+            android:defaultValue="60"
+            android:key="fps"
+            android:summary="Adjust the number of frames drawn per second."
+            android:title="FPS"/>
+
+        <in.sureshkumarkv.preferencelib.SliderPreference
+            android:defaultValue="60"
+            android:key="resolution"
+            android:summary="Adjust the display resolution."
+            android:title="Resolution"/>
+
+        <in.sureshkumarkv.preferencelib.ChooserPreference
+            android:defaultValue="x"
+            android:key="source"
+            android:summary="Browse for the video file to be used."
+            android:title="Video file"/>
+
+        <in.sureshkumarkv.preferencelib.SliderPreference
+            android:defaultValue="0"
+            android:key="volume"
+            android:summary="Set the volume for the audio track."
+            android:title="Volume"/>
+    </PreferenceCategory>
+
+	<PreferenceCategory android:title="More">
+		<in.sureshkumarkv.preferencelib.ClickPreference
+            android:key="promotion"
+            android:title="My other apps"
+            android:summary="Take a look at my other apps in PlayStore."/>
+	</PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+        <in.sureshkumarkv.preferencelib.LayoutPreference
+            app:targetLayout="layout_about"
+            app:targetLayoutId="id_about"
+            android:key="about"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="pattern_list">
+		<item>Aqua</item>
+		<item>Coffee</item>
+		<item>Fire</item>
+		<item>Loops</item>
+	</string-array>
+</resources>
